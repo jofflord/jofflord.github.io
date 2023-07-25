@@ -200,13 +200,21 @@ font-family: Montserrat;
     background-color: rgb(29, 29, 29);
     margin: auto;
     position: relative;
-    top: 10.5rem;
+    top: 9.5rem;
     cursor: default;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
     padding-bottom: 50px;
+}
+
+.subtitle {
+    font-family: Montserrat, sans-serif;
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 #card1:hover {
@@ -253,7 +261,7 @@ font-family: Montserrat;
 
 .course {
     position: relative;
-    top: 2rem;
+    top: 0rem;
 }
 
 #card1 .container h2 {
@@ -268,11 +276,10 @@ font-family: Montserrat;
     color:#f3af19
 }
 
-.rare, .epic, .legendary {
+.gamefont {
     font-family: Handjet;
-    font-size: 0.5rem;
-    position: absolute;
-    top: 1rem;
+    font-size: 1.5rem;
+    top: 2rem;
 }
 
 #rare {
@@ -310,7 +317,6 @@ padding-bottom: 50px;
     }
     #pricing {
         width: 100%;
-        overflow: scroll;
     }
     .card {
         margin-top: 10px;
@@ -330,30 +336,57 @@ padding-bottom: 50px;
     }
     #howitworks {
         width: 95%;
-        height: 470px;
+        height: 450px;
         overflow: scroll;
 
     }
     .step1, .step2, .step3, .step4 {
         font-size: 1.2rem;
     }
+    .description {
+        left: 4rem;
+        overflow: scroll;
+    }
     #pricing {
         width: 100%;
-        height: 450px;
+        height: 1350px;
         overflow: hidden;
+        flex-direction: column;
+    }
+    .card {
+        width: 95%;
+        height: 30%;
+        margin: auto;
     }
     .container h2 {
-        top: 22rem;
+        top: 17rem;
         font-size: 2rem;
     }
     .container p {
         font-size: 1.2rem;
+        justify-content: space-around;
+        top: 2rem;
     }
     
     i.material-icons {
         font-size: 25px;
+        left: 1rem;
     }
     #howitworks p{
         padding-right: 20px;
     }
+    .container {
+        align-items: center;
+    }
+    #card1 {
+        box-shadow: 0 0 3px rgba(76, 81, 247, 0.5);
+      }
+      #card2 {
+        box-shadow: 0 0 3px rgba(157, 77, 187, 0.5);
+      }
+    
+    #card3 {
+        box-shadow:0 0 3px rgba(243, 175, 25, 0.5)
+      }
+
 }
